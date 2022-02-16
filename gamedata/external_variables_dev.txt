@@ -3856,10 +3856,6 @@ link.format.userpage=${url.prefix}/profile/%username%
 live.environment.list=br/us/de/es/fi/fr/it/nl/tr
 loading_screen.logout_visible_timeout_sec=20
 login.show.calendar=false
-logout.concurrent.url=${url.prefix}/account/disconnected
-logout.disconnect.url=${url.prefix}/account/disconnected?reason=logout
-logout.disconnect.url=${url.prefix}/account/disconnected?reason=logout&origin=%origin%
-logout.url=${url.prefix}/account/disconnected?reason=%reason%&origin=%origin%
 memenu.effects.widget.disabled=true
 menu.avatar.enabled=true
 menu.bot.enabled=false
@@ -4099,4 +4095,8 @@ landing.view.background_horizon.uri=${image.library.url}reception/meter_level_1_
 landing.view.background_hotel_top.uri=${image.library.url}reception/Val22_Background_Hotel_Top.png
 landing.view.background_left.uri=${image.library.url}reception/Val22_Background_Left.png
 landing.view.background_right.uri=${image.library.url}reception/background_right_easter2016.png
+logout.concurrent.url=//habb.city/hotel
+logout.disconnect.url=//habb.city/hotel
+logout.disconnect.url=//habb.city/hotel
+logout.url=//habb.city/logout
 
