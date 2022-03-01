@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<map><script/>
+<?xml version="1.0"?>
+<map>
   <effect id="dance.1" lib="Dance1" type="dance" revision="59200"/>
   <effect id="dance.2" lib="Dance2" type="dance" revision="59200"/>
   <effect id="dance.3" lib="Dance3" type="dance" revision="59200"/>
@@ -101,7 +101,7 @@
   <effect id="95" lib="Snowwarred" type="fx" revision="59200"/>
   <effect id="96" lib="Snowwarblue" type="fx" revision="59200"/>
   <effect id="97" lib="Snowboardplch" type="fx" revision="59660"/>
-  <effect id="98" lib="SnowstormCrosshair" type="fx" revision="59200"/>
+  <effect id="98" lib="SnowstormCrosshair" type="fx" revision="66539"/>
   <effect id="99" lib="Niko" type="fx" revision="59220"/>
   <effect id="100" lib="Dragon" type="fx" revision="59200"/>
   <effect id="101" lib="BangGun" type="fx" revision="59220"/>
@@ -203,4 +203,14 @@
   <effect id="197" lib="Flycarpet" type="fx" revision="63334"/>
   <effect id="198" lib="ZombieDuck" type="fx" revision="63413"/>
   <effect id="199" lib="Turtleride" type="fx" revision="64066"/>
+  <effect id="200" lib="RollerSkatingSlide" type="fx" revision="66684"/>
+  <effect id="201" lib="NFTCoin1" type="fx" revision="67093"/>
+  <effect id="202" lib="NFTCoin2" type="fx" revision="67093"/>
+  <effect id="203" lib="NFTCoin3" type="fx" revision="67093"/>
+  <effect id="204" lib="NFTCoin4" type="fx" revision="67093"/>
+  <effect id="205" lib="NFTCoin5" type="fx" revision="67093"/>
+  <effect id="206" lib="NFTCoin6" type="fx" revision="67093"/>
+  <effect id="207" lib="LightstickBlue" type="fx" revision="67449"/>
+  <effect id="208" lib="LightstickRed" type="fx" revision="67453"/>
+  <effect id="209" lib="LightstickGreen" type="fx" revision="67453"/>
 </map>

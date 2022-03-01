@@ -2,10 +2,10 @@
 <actions>
 
     <!-- Main actions -->
-    <action  id="Lay" state="lay" precedence="100" main="1" geometrytype="horizontal" activepartset="figure" assetpartdefinition="lay" prevents="fx.1,fx.2,fx.3,fx.5,fx.6,fx.14,fx.15,fx.16,fx.17,fx.18,fx.19,fx.20,fx.21,fx.22,fx.26,fx.27,fx.31,fx.32,fx.33,fx.34,fx.35,fx.36,fx.38,fx.39,fx.45,fx.46,fx.47,fx.48,fx.53,fx.54,fx.55,fx.56,fx.57,fx.58,fx.60,fx.61,fx.62,fx.63,fx.64,fx.65,fx.66,fx.67,fx.69,fx.70,fx.71,fx.72,fx.73,fx.74,fx.75,fx.76,fx.78,fx.79,fx.80,fx.81,fx.82,fx.83,fx.84,fx.85,fx.86,fx.87,fx.88,fx.89,fx.90,fx.91,fx.92,fx.93,fx.94,fx.97,fx.99,fx.100,fx.101,fx.104,fx.105,fx.106,fx.107,fx.108,fx.109,fx.110,fx.111,fx.112,fx.113,fx.114,fx.115,fx.116,fx.117,fx.118,fx.119,fx.120,fx.121,fx.122,fx.123,fx.124,fx.125,fx.126,fx.127,fx.128,fx.129,fx.130,fx.131,fx.132,fx.133,fx.134,fx.135,fx.136,fx.137,fx.138,fx.139,fx.140,fx.141,fx.142,fx.143,fx.144,fx.145,fx.146,fx.147,fx.148,fx.149,fx.150,fx.151,fx.152,fx.153,fx.154,fx.155,fx.156,fx.157,fx.158,fx.159,fx.160,fx.161,fx.162,fx.164,fx.165,fx.166,fx.167,fx.168,fx.169,fx.171,fx.172,fx.173,fx.174,fx.175,fx.176,fx.177,fx.179,fx.180,fx.181,fx.182,fx.183,fx.184,fx.185,fx.186,fx.188,fx.189,fx.190,fx.191,fx.192,fx.193,fx.194,fx.195,fx.196,fx197,fx198,fx199,spk,gest,sml,sad,agr,srp,usei,cri,blow"/>
-    <action  id="Float" state="float" precedence="101" main="1" geometrytype="swim" activepartset="swim" assetpartdefinition="sws" prevents="fx.2,fx.3,fx.5,fx.6,fx.14,fx.15,fx.16,fx.17,fx.18,fx.19,fx.20,fx.21,fx.22,fx.23,fx.26,fx.27,fx.31,fx.32,fx.33,fx.34,fx.35,fx.36,fx.38,fx.39,fx.45,fx.46,fx.48,fx.54,fx.55,fx.56,fx.57,fx.58,fx.63,fx.65,fx.66,fx.69,fx.71,fx.72,fx.74,fx.75,fx.76,fx.89,fx.90,fx.91,fx.92,fx.94,fx.97,fx.99,fx.100,fx.101,fx.104,fx.105,fx.106,fx.107,fx.109,fx.110,fx.111,fx.113,fx.114,fx.115,fx.116,fx.117,fx.118,fx.119,fx.120,fx.121,fx.122,fx.123,fx.124,fx.125,fx.127,fx.129,fx.130,fx.131,fx.132,fx.134,fx.135,fx.136,fx.139,fx.140,fx.141,fx.142,fx.143,fx.144,fx.145,fx.146,fx.147,fx.148,fx.149,fx.150,fx.151,fx.152,fx.153,fx.154,fx.155,fx.156,fx.157,fx.158,fx.159,fx.160,fx.161,fx.162,fx.164,fx.165,fx.166,fx.167,fx.168,fx.169,fx.170,fx.171,fx.172,fx.173,fx.174,fx.175,fx.176,fx.177,fx.102,fx.178,fx.179,fx.180,fx.181,fx.182,fx.183,fx.186,fx.188,fx.189,fx.190,fx.191,fx.192,fx.193,fx.194,fx.195,fx.196,fx197,fx198,fx199,dance,usei,cri,sign"/>
-    <action  id="Swim" state="swim" precedence="102" main="1" geometrytype="swim" activepartset="swim" assetpartdefinition="swm" prevents="fx.2,fx.3,fx.5,fx.6,fx.14,fx.15,fx.16,fx.17,fx.18,fx.19,fx.20,fx.21,fx.22,fx.23,fx.26,fx.27,fx.32,fx.33,fx.34,fx.35,fx.36,fx.38,fx.39,fx.45,fx.46,fx.48,fx.54,fx.55,fx.56,fx.57,fx.58,fx.63,fx.65,fx.66,fx.69,fx.71,fx.72,fx.74,fx.75,fx.76,fx.89,fx.90,fx.91,fx.92,fx.94,fx.97,fx.100,fx.101,fx.104,fx.105,fx.106,fx.107,fx.109,fx.110,fx.111,fx.113,fx.114,fx.115,fx.116,fx.117,fx.118,fx.119,fx.120,fx.121,fx.122,fx.123,fx.124,fx.125,fx.127,fx.129,fx.130,fx.131,fx.132,fx.134,fx.135,fx.136,fx.139,fx.140,fx.141,fx.142,fx.143,fx.144,fx.145,fx.146,fx.147,fx.148,fx.149,fx.150,fx.151,fx.152,fx.153,fx.154,fx.155,fx.156,fx.157,fx.158,fx.159,fx.160,fx.161,fx.162,fx.164,fx.165,fx.166,fx.167,fx.168,fx.168,fx.170,fx.171,fx.172,fx.173,fx.174,fx.175,fx.176,fx.177,fx.102,fx.178,fx.179,fx.180,fx.181,fx.182,fx.183,fx.186,fx.188,fx.189,fx.190,fx.191,fx.192,fx.193,fx.194,fx.195,fx.196,fx197,fx198,fx199,dance,usei,cri,sign"/>
-    <action  id="Sit" state="sit" precedence="103" main="1" geometrytype="sitting" activepartset="sit" assetpartdefinition="sit" prevents="fx.2,fx.3,fx.6,fx.14,fx.15,fx.17,fx.18,fx.19,fx.20,fx.21,fx.22,fx.33,fx.34,fx.35,fx.36,fx.38,fx.39,fx.48,fx.54,fx.55,fx.56,fx.69,fx.71,fx.72,fx.92,fx.94,fx.97,fx.100,fx.104,fx.115,fx.117,fx.132,fx.134,fx.135,fx.136,fx.140,fx.156,fx.174,fx.175,fx.176,fx.188,fx.189,fx.190,fx.191,fx.193,fx.194,fx.195,fx197,fx198,fx199,dance"/>
+    <action  id="Lay" state="lay" precedence="100" main="1" geometrytype="horizontal" activepartset="figure" assetpartdefinition="lay" prevents="fx.1,fx.2,fx.3,fx.5,fx.6,fx.14,fx.15,fx.16,fx.17,fx.18,fx.19,fx.20,fx.21,fx.22,fx.26,fx.27,fx.31,fx.32,fx.33,fx.34,fx.35,fx.36,fx.38,fx.39,fx.45,fx.46,fx.47,fx.48,fx.53,fx.54,fx.55,fx.56,fx.57,fx.58,fx.60,fx.61,fx.62,fx.63,fx.64,fx.65,fx.66,fx.67,fx.69,fx.70,fx.71,fx.72,fx.73,fx.74,fx.75,fx.76,fx.78,fx.79,fx.80,fx.81,fx.82,fx.83,fx.84,fx.85,fx.86,fx.87,fx.88,fx.89,fx.90,fx.91,fx.92,fx.93,fx.94,fx.97,fx.99,fx.100,fx.101,fx.104,fx.105,fx.106,fx.107,fx.108,fx.109,fx.110,fx.111,fx.112,fx.113,fx.114,fx.115,fx.116,fx.117,fx.118,fx.119,fx.120,fx.121,fx.122,fx.123,fx.124,fx.125,fx.126,fx.127,fx.128,fx.129,fx.130,fx.131,fx.132,fx.133,fx.134,fx.135,fx.136,fx.137,fx.138,fx.139,fx.140,fx.141,fx.142,fx.143,fx.144,fx.145,fx.146,fx.147,fx.148,fx.149,fx.150,fx.151,fx.152,fx.153,fx.154,fx.155,fx.156,fx.157,fx.158,fx.159,fx.160,fx.161,fx.162,fx.164,fx.165,fx.166,fx.167,fx.168,fx.169,fx.171,fx.172,fx.173,fx.174,fx.175,fx.176,fx.177,fx.179,fx.180,fx.181,fx.182,fx.183,fx.184,fx.185,fx.186,fx.188,fx.189,fx.190,fx.191,fx.192,fx.193,fx.194,fx.195,fx.196,fx.197,fx.198,fx.199,fx.207,fx.208,fx.209,spk,gest,sml,sad,agr,srp,usei,cri,blow"/>
+    <action  id="Float" state="float" precedence="101" main="1" geometrytype="swim" activepartset="swim" assetpartdefinition="sws" prevents="fx.2,fx.3,fx.5,fx.6,fx.14,fx.15,fx.16,fx.17,fx.18,fx.19,fx.20,fx.21,fx.22,fx.23,fx.26,fx.27,fx.31,fx.32,fx.33,fx.34,fx.35,fx.36,fx.38,fx.39,fx.45,fx.46,fx.48,fx.54,fx.55,fx.56,fx.57,fx.58,fx.63,fx.65,fx.66,fx.69,fx.71,fx.72,fx.74,fx.75,fx.76,fx.89,fx.90,fx.91,fx.92,fx.94,fx.97,fx.99,fx.100,fx.101,fx.104,fx.105,fx.106,fx.107,fx.109,fx.110,fx.111,fx.113,fx.114,fx.115,fx.116,fx.117,fx.118,fx.119,fx.120,fx.121,fx.122,fx.123,fx.124,fx.125,fx.127,fx.129,fx.130,fx.131,fx.132,fx.134,fx.135,fx.136,fx.139,fx.140,fx.141,fx.142,fx.143,fx.144,fx.145,fx.146,fx.147,fx.148,fx.149,fx.150,fx.151,fx.152,fx.153,fx.154,fx.155,fx.156,fx.157,fx.158,fx.159,fx.160,fx.161,fx.162,fx.164,fx.165,fx.166,fx.167,fx.168,fx.169,fx.170,fx.171,fx.172,fx.173,fx.174,fx.175,fx.176,fx.177,fx.102,fx.178,fx.179,fx.180,fx.181,fx.182,fx.183,fx.186,fx.188,fx.189,fx.190,fx.191,fx.192,fx.193,fx.194,fx.195,fx.196,fx.197,fx.198,fx.199,fx.207,fx.208,fx.209,dance,usei,cri,sign"/>
+    <action  id="Swim" state="swim" precedence="102" main="1" geometrytype="swim" activepartset="swim" assetpartdefinition="swm" prevents="fx.2,fx.3,fx.5,fx.6,fx.14,fx.15,fx.16,fx.17,fx.18,fx.19,fx.20,fx.21,fx.22,fx.23,fx.26,fx.27,fx.32,fx.33,fx.34,fx.35,fx.36,fx.38,fx.39,fx.45,fx.46,fx.48,fx.54,fx.55,fx.56,fx.57,fx.58,fx.63,fx.65,fx.66,fx.69,fx.71,fx.72,fx.74,fx.75,fx.76,fx.89,fx.90,fx.91,fx.92,fx.94,fx.97,fx.100,fx.101,fx.104,fx.105,fx.106,fx.107,fx.109,fx.110,fx.111,fx.113,fx.114,fx.115,fx.116,fx.117,fx.118,fx.119,fx.120,fx.121,fx.122,fx.123,fx.124,fx.125,fx.127,fx.129,fx.130,fx.131,fx.132,fx.134,fx.135,fx.136,fx.139,fx.140,fx.141,fx.142,fx.143,fx.144,fx.145,fx.146,fx.147,fx.148,fx.149,fx.150,fx.151,fx.152,fx.153,fx.154,fx.155,fx.156,fx.157,fx.158,fx.159,fx.160,fx.161,fx.162,fx.164,fx.165,fx.166,fx.167,fx.168,fx.168,fx.170,fx.171,fx.172,fx.173,fx.174,fx.175,fx.176,fx.177,fx.102,fx.178,fx.179,fx.180,fx.181,fx.182,fx.183,fx.186,fx.188,fx.189,fx.190,fx.191,fx.192,fx.193,fx.194,fx.195,fx.196,fx.197,fx.198,fx.199,fx.207,fx.208,fx.209,dance,usei,cri,sign"/>
+    <action  id="Sit" state="sit" precedence="103" main="1" geometrytype="sitting" activepartset="sit" assetpartdefinition="sit" prevents="fx.2,fx.3,fx.6,fx.14,fx.15,fx.17,fx.18,fx.19,fx.20,fx.21,fx.22,fx.33,fx.34,fx.35,fx.36,fx.38,fx.39,fx.48,fx.54,fx.55,fx.56,fx.69,fx.71,fx.72,fx.92,fx.94,fx.97,fx.100,fx.104,fx.115,fx.117,fx.132,fx.134,fx.135,fx.136,fx.140,fx.156,fx.174,fx.175,fx.176,fx.188,fx.189,fx.190,fx.191,fx.193,fx.194,fx.195,fx.197,fx.198,fx.199,dance"/>
 
     <action  id="Snowboard360" state="sb360" precedence="140" animation="1" main="1" geometrytype="vertical" activepartset="figure" assetpartdefinition="sb360" startfromframezero="true" prevents="usei,cri,wave,sign"/>
     <action  id="SnowboardOllie" state="sbollie" precedence="141" animation="1" main="1" geometrytype="vertical" activepartset="figure" assetpartdefinition="sbollie" startfromframezero="true" prevents="usei,cri,wave,sign"/>
@@ -322,6 +322,14 @@
         <param id="142" value="234"/>
         <param id="143" value="238"/>
         <param id="144" value="239"/>
+        <param id="145" value="243"/>
+        <param id="146" value="245"/>
+	    <param id="147" value="246"/>
+	    <param id="148" value="247"/>
+	    <param id="149" value="248"/>
+        <param id="150" value="250"/>
+        <param id="151" value="251"/>
+        <param id="152" value="252"/>
 
 
 
@@ -389,7 +397,6 @@
         <param id="62" value="72"/>
         <param id="63" value="73"/>
         <param id="64" value="44"/>
-
         <param id="66" value="75"/>
         <param id="67" value="92"/>
         <param id="68" value="93"/>
@@ -465,6 +472,15 @@
         <param id="142" value="234"/>
         <param id="143" value="238"/>
         <param id="144" value="239"/>
+        <param id="145" value="243"/>
+        <param id="146" value="245"/>
+ 	    <param id="147" value="246"/>
+        <param id="148" value="247"/>
+        <param id="149" value="248"/>
+        <param id="150" value="250"/>
+        <param id="151" value="251"/>
+        <param id="152" value="252"/>
+
    
         <param id="1000" value="76"/>
         <param id="1001" value="77"/>
@@ -477,12 +493,10 @@
         <param id="1008" value="84"/>
         <param id="1009" value="85"/>
         <param id="1011" value="87"/>
-
         <param id="1013" value="89"/>
         <param id="1014" value="90"/>
         <param id="1015" value="91"/>
         <param id="1019" value="95"/>
-
         <param id="1021" value="97"/>
         <param id="1022" value="98"/>
         <param id="1023" value="99"/>
@@ -553,9 +567,14 @@
         <param id="1088" value="230"/>
         <param id="1089" value="233"/>
         <param id="1090" value="235"/>
-	    <param id="1091" value="236"/>
-	    <param id="1092" value="237"/>
-	    <param id="1093" value="240"/>
+	<param id="1091" value="236"/>
+	<param id="1092" value="237"/>
+	<param id="1093" value="240"/>
+        <param id="1094" value="241"/>
+        <param id="1095" value="242"/>
+	<param id="1096" value="244"/>
+	<param id="1097" value="249"/>
+
 
 
         <param id="999999999" value="-1"/><!-- Scratching -->
