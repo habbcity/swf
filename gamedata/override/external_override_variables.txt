@@ -1,1 +1,5 @@
 habbo=habbo
+camera.enabled=true
+camera.photo.publishing.enabled=true
+navigator.thumbnail.url_base=//images.habb.city/c_images/camera/thumbnail/
+stories.image_url_base=//images.habb.city/c_images/camera/
