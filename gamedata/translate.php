@@ -13,12 +13,7 @@ if (!file_exists('./furnidata_br.xml')) {
     throw new RuntimeException('furnidata_br.xml is does not exist or is not readable');
 }
 
-/* edit: Download latest furnidata files */
-exec('wget "https://habbo.com/gamedata/furnidata_xml/1" -O "' . './furnidata.xml"');
-exec('wget "https://habbo.com.br/gamedata/furnidata_xml/1" -O "' . './furnidata_br.xml"');
-/* end edit */
-
-$furnidata = new SimpleXMLElement(file_get_contents('./furnidata.xml'));
+$furnidata = new SimpleXMLElement(file_get_contents('./furnidata_en.xml'));
 $translate = new SimpleXMLElement(file_get_contents('./furnidata_br.xml'));
 $translate = array_merge_recursive(
     (array) $translate->roomitemtypes,
@@ -59,6 +54,6 @@ foreach ($furnidata->wallitemtypes->furnitype as $furni) {
     $furni->description = $desc;
 }
 
-$furnidata->asXML('./furnidata.xml');
+$furnidata->asXML('./furnidata_en.xml');
 
 echo 'Finished, execution time: ' . (microtime(true) - $start) . ' seconds';

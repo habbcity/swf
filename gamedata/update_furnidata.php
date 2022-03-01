@@ -89,3 +89,7 @@ foreach ($json->hashes as $j) {
         }
     }
 }
+
+
+/* TRANSLATE FURNIDATA */
+include('./translate.php');
